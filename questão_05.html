@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP2-Questão-5</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = (window.prompt('Digite seu nome '))
+        var n1 = Number(window.prompt('Digite a nota da AP1 : '))
+        var n2 = Number(window.prompt( 'Digite a nota da AP2: '))
+        var n3 = Number(window.prompt( 'Digite a nota da AP3: '))
+        var média = (n1 + n2 + n3) / 3
+        var r = média >=8 ?'APROVADO':'REPROVADO'
+
+        document.write(`Olá, <strong>${nome}</strong>! Você foi ${r} na disciplina.`) 
+        
+    </script>
+</body>
+</html>
